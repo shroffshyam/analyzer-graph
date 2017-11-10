@@ -1,0 +1,205 @@
+{
+  "id": "0e4303d1-332e-409c-b4e2-cca0c3453bc5",
+  "status": "RUNNING",
+  "errorDetails": null,
+  "code": "g.V().has(\"subjectScope\",\"urn\",\"urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_sbu_accept:1\").bothE().hasNot(\"deleted\").outV().bothE().hasNot(\"deleted\").inV().bothE().inV()",
+  "cqlKeyspace": null,
+  "language": "gremlin",
+  "gremlinExecutionEngine": null,
+  "selectedCqlExecutionConfiguration": "CL.ONE",
+  "result": {
+    "graph": {
+      "vertices": [
+        {
+          "id": "{urn=urn:com.mheducation.openlearning:authz:dev:role:d202c757-f51e-3db4-b812-6ba10a44d89a:1, ~label=role}",
+          "label": "role",
+          "type": "vertex",
+          "properties": {
+            "authz_uuid": [
+              {
+                "id": "{~label=authz_uuid, ~out_vertex={urn=urn:com.mheducation.openlearning:authz:dev:role:d202c757-f51e-3db4-b812-6ba10a44d89a:1, ~label=role}, ~local_id=00000000-0000-8038-0000-000000000000}",
+                "value": "d202c757-f51e-3db4-b812-6ba10a44d89a"
+              }
+            ],
+            "updated_datetime": [
+              {
+                "id": "{~label=updated_datetime, ~out_vertex={urn=urn:com.mheducation.openlearning:authz:dev:role:d202c757-f51e-3db4-b812-6ba10a44d89a:1, ~label=role}, ~local_id=00000000-0000-803f-0000-000000000000}",
+                "value": "2017-11-02T21:49:12.196Z"
+              }
+            ],
+            "name": [
+              {
+                "id": "{~label=name, ~out_vertex={urn=urn:com.mheducation.openlearning:authz:dev:role:d202c757-f51e-3db4-b812-6ba10a44d89a:1, ~label=role}, ~local_id=00000000-0000-803b-0000-000000000000}",
+                "value": "Accept School Author"
+              }
+            ],
+            "created_datetime": [
+              {
+                "id": "{~label=created_datetime, ~out_vertex={urn=urn:com.mheducation.openlearning:authz:dev:role:d202c757-f51e-3db4-b812-6ba10a44d89a:1, ~label=role}, ~local_id=00000000-0000-803e-0000-000000000000}",
+                "value": "2017-11-02T21:49:12.196Z"
+              }
+            ]
+          },
+          "community": 0,
+          "degree": 1,
+          "inDegree": 0,
+          "outDegree": 1
+        },
+        {
+          "id": "{urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_accept:1, ~label=subjectScope}",
+          "label": "subjectScope",
+          "type": "vertex",
+          "properties": {
+            "updated_datetime": [
+              {
+                "id": "{~label=updated_datetime, ~out_vertex={urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_accept:1, ~label=subjectScope}, ~local_id=00000000-0000-803f-0000-000000000000}",
+                "value": "2017-11-02T22:59:55.782Z"
+              }
+            ],
+            "name": [
+              {
+                "id": "{~label=name, ~out_vertex={urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_accept:1, ~label=subjectScope}, ~local_id=00000000-0000-803b-0000-000000000000}",
+                "value": "McGraw Hill Accept Group"
+              }
+            ],
+            "created_datetime": [
+              {
+                "id": "{~label=created_datetime, ~out_vertex={urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_accept:1, ~label=subjectScope}, ~local_id=00000000-0000-803e-0000-000000000000}",
+                "value": "2017-11-02T22:59:55.782Z"
+              }
+            ]
+          },
+          "community": 1,
+          "degree": 1,
+          "inDegree": 0,
+          "outDegree": 1
+        },
+        {
+          "id": "{urn=urn:com.mheducation.openlearning:authz:dev:subjectscopetype:mheorg:1, ~label=subjectScopeType}",
+          "label": "subjectScopeType",
+          "type": "vertex",
+          "properties": {
+            "typecode": [
+              {
+                "id": "{~label=typecode, ~out_vertex={urn=urn:com.mheducation.openlearning:authz:dev:subjectscopetype:mheorg:1, ~label=subjectScopeType}, ~local_id=00000000-0000-8035-0000-000000000000}",
+                "value": "testTypeCode"
+              }
+            ],
+            "subtype": [
+              {
+                "id": "{~label=subtype, ~out_vertex={urn=urn:com.mheducation.openlearning:authz:dev:subjectscopetype:mheorg:1, ~label=subjectScopeType}, ~local_id=00000000-0000-8039-0000-000000000000}",
+                "value": "testSubjType"
+              }
+            ],
+            "updated_datetime": [
+              {
+                "id": "{~label=updated_datetime, ~out_vertex={urn=urn:com.mheducation.openlearning:authz:dev:subjectscopetype:mheorg:1, ~label=subjectScopeType}, ~local_id=00000000-0000-803f-0000-000000000000}",
+                "value": "2017-11-02T20:11:50.084Z"
+              }
+            ],
+            "authz_id": [
+              {
+                "id": "{~label=authz_id, ~out_vertex={urn=urn:com.mheducation.openlearning:authz:dev:subjectscopetype:mheorg:1, ~label=subjectScopeType}, ~local_id=00000000-0000-803a-0000-000000000000}",
+                "value": "mheorg"
+              }
+            ],
+            "name": [
+              {
+                "id": "{~label=name, ~out_vertex={urn=urn:com.mheducation.openlearning:authz:dev:subjectscopetype:mheorg:1, ~label=subjectScopeType}, ~local_id=00000000-0000-803b-0000-000000000000}",
+                "value": "mhe org"
+              }
+            ],
+            "name_lc": [
+              {
+                "id": "{~label=name_lc, ~out_vertex={urn=urn:com.mheducation.openlearning:authz:dev:subjectscopetype:mheorg:1, ~label=subjectScopeType}, ~local_id=00000000-0000-803c-0000-000000000000}",
+                "value": "mhe org"
+              }
+            ],
+            "created_datetime": [
+              {
+                "id": "{~label=created_datetime, ~out_vertex={urn=urn:com.mheducation.openlearning:authz:dev:subjectscopetype:mheorg:1, ~label=subjectScopeType}, ~local_id=00000000-0000-803e-0000-000000000000}",
+                "value": "2017-11-02T20:11:50.084Z"
+              }
+            ]
+          },
+          "community": 3,
+          "degree": 1,
+          "inDegree": 1,
+          "outDegree": 0
+        },
+        {
+          "id": "{urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_sbu_accept:1, ~label=subjectScope}",
+          "label": "subjectScope",
+          "type": "vertex",
+          "properties": {
+            "updated_datetime": [
+              {
+                "id": "{~label=updated_datetime, ~out_vertex={urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_sbu_accept:1, ~label=subjectScope}, ~local_id=00000000-0000-803f-0000-000000000000}",
+                "value": "2017-11-02T20:50:47.484Z"
+              }
+            ],
+            "name": [
+              {
+                "id": "{~label=name, ~out_vertex={urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_sbu_accept:1, ~label=subjectScope}, ~local_id=00000000-0000-803b-0000-000000000000}",
+                "value": "Accept School Business Unit"
+              }
+            ],
+            "created_datetime": [
+              {
+                "id": "{~label=created_datetime, ~out_vertex={urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_sbu_accept:1, ~label=subjectScope}, ~local_id=00000000-0000-803e-0000-000000000000}",
+                "value": "2017-11-02T20:50:47.484Z"
+              }
+            ]
+          },
+          "community": 2,
+          "degree": 3,
+          "inDegree": 2,
+          "outDegree": 1
+        }
+      ],
+      "edges": [
+        {
+          "id": "{~label=scope, ~out_vertex={urn=urn:com.mheducation.openlearning:authz:dev:role:d202c757-f51e-3db4-b812-6ba10a44d89a:1, ~label=role}, ~in_vertex={urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_sbu_accept:1, ~label=subjectScope}, ~local_id=a9b39972-c017-11e7-8a4f-5f8e114006ba}",
+          "label": "scope",
+          "type": "edge",
+          "inVLabel": "subjectScope",
+          "outVLabel": "role",
+          "inV": "{urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_sbu_accept:1, ~label=subjectScope}",
+          "outV": "{urn=urn:com.mheducation.openlearning:authz:dev:role:d202c757-f51e-3db4-b812-6ba10a44d89a:1, ~label=role}",
+          "properties": {
+            "updated_datetime": "2017-11-02T21:49:12.196Z",
+            "created_datetime": "2017-11-02T21:49:12.196Z"
+          }
+        },
+        {
+          "id": "{~label=type, ~out_vertex={urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_sbu_accept:1, ~label=subjectScope}, ~in_vertex={urn=urn:com.mheducation.openlearning:authz:dev:subjectscopetype:mheorg:1, ~label=subjectScopeType}, ~local_id=80bb2400-c00f-11e7-8a4f-5f8e114006ba}",
+          "label": "type",
+          "type": "edge",
+          "inVLabel": "subjectScopeType",
+          "outVLabel": "subjectScope",
+          "inV": "{urn=urn:com.mheducation.openlearning:authz:dev:subjectscopetype:mheorg:1, ~label=subjectScopeType}",
+          "outV": "{urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_sbu_accept:1, ~label=subjectScope}",
+          "properties": {
+            "updated_datetime": "2017-11-02T20:50:47.484Z",
+            "created_datetime": "2017-11-02T20:50:47.484Z"
+          }
+        },
+        {
+          "id": "{~label=contains, ~out_vertex={urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_accept:1, ~label=subjectScope}, ~in_vertex={urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_sbu_accept:1, ~label=subjectScope}, ~local_id=53ada0a0-c0b9-11e7-9fcd-4f4aa49b1314}",
+          "label": "contains",
+          "type": "edge",
+          "inVLabel": "subjectScope",
+          "outVLabel": "subjectScope",
+          "inV": "{urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_sbu_accept:1, ~label=subjectScope}",
+          "outV": "{urn=urn:com.mheducation.openlearning:org:prod:organization:mheorg_subjectscope_accept:1, ~label=subjectScope}",
+          "properties": {
+            "effective": "2017-11-03T17:06:26.335Z",
+            "updated_datetime": "2017-11-03T17:06:26.335Z",
+            "expiration": "2019-02-08T18:54:29Z",
+            "created_datetime": "2017-11-03T17:06:26.335Z"
+          }
+        }
+      ]
+    }
+  }
+}
